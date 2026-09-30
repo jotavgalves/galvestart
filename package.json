@@ -1,0 +1,16 @@
+{
+  "name": "galvestart",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GALVESTART — catálogo de sites, rastreamento e painel administrativo separado",
+  "scripts": {
+    "start": "node server.js",
+    "admin": "node admin-server.js",
+    "dev": "node dev.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+}
